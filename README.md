@@ -45,6 +45,11 @@ To specify the compiler and build in Release mode:
 
 See `MPQExtractor --help` for more details. All the examples below are shown using the World of Warcraft 4.3 files, as of Jan 2012.
 
+**Extract MPQ file to specific folder**
+```
+./MPQExtractor -e "*" -f -o out /path/to/art.MPQ
+```
+
 **Retrieve the list of files in a MPQ archive:**
 
     $ MPQExtractor -l list.txt /path/to/art.MPQ
